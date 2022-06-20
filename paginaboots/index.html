@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas de bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.pexels.com/photos/638479/pexels-photo-638479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Carro de lujo bartito solo cuesta 1 millon un riñon 206 huesitos uwu</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="data:image/jpeg;base64,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"
+            class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">mEsI</h5>
+            <p class="card-text">Que humildad la de mesi Dios mio</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://images.pexels.com/photos/39501/lamborghini-brno-racing-car-automobiles-39501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lamborgini</h5>
+          <p class="card-text">Lo mismo que el primero pero ahora son 200 milliones de pesitos </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mustang</h5>
+          <p class="card-text">Que belleza papa fiuum</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://images.pexels.com/photos/3214023/pexels-photo-3214023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Elbin</h5>
+          <p class="card-text">WTF elbin que haces aca</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+</body>
+
+</html>
